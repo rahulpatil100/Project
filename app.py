@@ -82,7 +82,62 @@
 # thisTuple = tuple (('Windows','My Love MACOS Sierra','Linux'))
 # print(thisTuple)
 
-# #using Tuple constructor leng of tuple
+# #using Tuple constructor lenth of tuple
 # thisTuple = tuple(('Windows','My Love MacOs Sierra','Unix'))
 # thisTuple=(len(thisTuple))
 # print(thisTuple)
+
+
+
+#Set is collection of unordered and unindexed. In python set is are written in python curly brackets
+
+# thisSet = {'Windows','Mac','Linux'}
+# print(thisSet)
+#the set list is unordered, so the items will appear in a random order.
+
+
+#Set() using constructor
+# thisSet = (('windows','Mac','Linux'))
+# print(thisSet)
+
+#using add() mehtod Set
+# thisSet = set(('Windows','Mac','Linux','unix'))
+# thisSet.add('Apple dude')
+# print(thisSet)
+
+#Set using remove() method
+# thisSet = set(('Windows','Mac','Ubantu','linux'))
+# thisSet.remove('Ubantu')
+# print(thisSet)
+#
+
+"""Set using len() method"""
+# thisSet = set(('windows','apple','unix','linux'))
+# print(len(thisSet))
+
+
+"""Dictionary :-A dictionary is a collection which is unordered, changeable and indexed.
+ In Python dictionaries are written with curly brackets, and they have keys and values."""
+
+# thisDict = {
+#     'Apple' : 'Steve Job',
+#     'Windows': 'Bill Gates',
+#     'Linux' : 'linus Tordvals'
+# }
+# print(thisDict)
+
+
+""" Set use dict() construcotr"""
+# thisDict =dict(Apple='SteveJobs',Windows='Bill Gates',Linux='linus tordvals')
+# print(thisDict)
+
+"""Adding item dictonary"""
+# thisDict = dict(Apple='SteveJobs',Windows='Bill Gates',Linux='linus tordvals')
+# thisDict['facebook']= 'Mark Zukerbug'
+# print(thisDict)
+
+
+"""Removee item dictionary using del()method"""
+# thisDict =dict(Apple='SteveJobs',Windows='Bill Gates',Linux='linus tordvals')
+# del(thisDict['Windows'])
+# print(thisDict)
