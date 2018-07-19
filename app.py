@@ -141,3 +141,6 @@
 # thisDict =dict(Apple='SteveJobs',Windows='Bill Gates',Linux='linus tordvals')
 # del(thisDict['Windows'])
 # print(thisDict)
+
+
+"""Python Condition and if statement"""
