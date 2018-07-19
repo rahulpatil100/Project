@@ -33,4 +33,11 @@
 # thislist.append('My love is MAC')
 # print(thislist)
 
+#using remove() method to remove item into list
+
+# thislist = list(('Linux','Windows','My First Love Mac'))
+# # thislist.remove(thislist[1])
+# # print(thislist)
+
+
 
