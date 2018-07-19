@@ -60,8 +60,29 @@
 # reverse()	Reverses the order of the list
 # sort()	Sorts the list
 
-#using sorted list 
+#using sorted list
 # thislist = list(('Windows','Linux','Apple'))
 # thislist = (sorted(thislist))
 # print(thislist)
 
+
+#Tuple is collection of ordered but Tuple is unchangable & Tuple  is wrriten into round bracket
+#Tuple is similar to list
+
+# thisTuple = ('Windows','My love MacOs Sierra','Linux')
+# print(thisTuple)
+
+#You canot change Tuple
+# thisTuple = ('Windows','My love MacOs Sierra','Linux')
+# thisTuple[3]='Unix' #test changabilitly
+# print(thisTuple)
+
+
+# using Tuple Constructor use (()) bracket
+# thisTuple = tuple (('Windows','My Love MACOS Sierra','Linux'))
+# print(thisTuple)
+
+# #using Tuple constructor leng of tuple
+# thisTuple = tuple(('Windows','My Love MacOs Sierra','Unix'))
+# thisTuple=(len(thisTuple))
+# print(thisTuple)
