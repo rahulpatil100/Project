@@ -241,3 +241,61 @@ This has the benefit of meaning that you can loop through data to reach a result
 #
 # print("\n\nRecursion Example Results")
 # tri_recursion(6)
+
+
+"""Python in Function """
+"""Function is block of code which run only its call
+You can pass data known parameter into function. function its return dataa  as result"""
+"""Python function declare def keyword"""
+
+# def my_function() -> object:
+#   print('Hello dude you are learn python!')
+#
+# my_function()
+
+"""Parameter python """
+"""Information can passed as parameter function. parameter are specified function name under"""
+# def my_function(fname):
+#   print(fname + " patil")
+#
+# my_function("Rahul")
+# my_function("Rohan")
+# my_function("Arnav")
+
+
+"""Default parameter"""
+# def my_function(country: object = "India") -> object:
+#   print("I am from " + country)
+#
+# my_function("Sweden")
+# my_function("Iceland")
+# my_function()
+# my_function("Brazil")
+
+"""Return value """
+
+# def  my_function(x):
+#     return 5 * x
+# print(my_function(10))
+# print(my_function(1000))
+
+
+"""Lamda function """
+"""lambda function is use  python to declare anonymous function"""
+
+# myfunc = lambda i:i * 2
+# print(myfunc(14))
+
+# myfunc = lambda x,y: x*y
+# print(myfunc(3,6))
+
+"""The power of lambda is better shown when you generate anonymous functions at run-time"""
+#
+# def myfunc(n):
+#   return lambda i: i*n
+#
+# doubler = myfunc(2)
+# tripler = myfunc(3)
+# val = 11
+# print("Doubled: " + str(doubler(val)) + ". Tripled: " + str(tripler(val)))
+
