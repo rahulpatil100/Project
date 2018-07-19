@@ -218,3 +218,26 @@ Tuple is similar to list
 #   if x == "banana":
 #     continue
 #   print(x)
+
+"""For loop range()function"""
+# for x in range(2,10):
+#     print(x)
+
+"""The range() function defaults to increment the sequence by 1, 
+however it is possible to specify the increment value by adding a third parameter: range(2, 30, 3)"""
+# for x in range (2,20,3):
+#     print(x)
+
+
+"""Recursion is a common mathematical and programming concept. It means that a function calls itself. 
+This has the benefit of meaning that you can loop through data to reach a result."""
+# def tri_recursion(k):
+#   if(k>0):
+#     result = k+tri_recursion(k-1)
+#     print(result)
+#   else:
+#     result = 0
+#   return result
+#
+# print("\n\nRecursion Example Results")
+# tri_recursion(6)
