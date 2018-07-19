@@ -145,3 +145,54 @@ Tuple is similar to list
 
 
 """Python Condition and if statement"""
+# x = 500
+# y = 600
+# if y >  x:
+#     print("y is  gretter than x")
+
+"""Else if statemetn"""
+# x = 600
+# y = 600
+# if(x > y):
+#     print("x is greater than y")
+# elif(x == y):
+#     print("x is equal to y")
+
+
+"""Else Statement"""
+# x = 600
+# y = 700
+# if(x > y):
+#     print("x is greater than y")
+# elif(x == y):
+#     print("x is equal to y")
+# else:
+#     print("y is greater than x")
+
+
+
+""" While Loops """
+"""While loop we can execute a set of statements as long as a condition is true"""
+
+# i = 1
+# while i < 6:
+#     print(i)
+#     i += 1
+
+"""Break statement """
+# i = 1
+# while i < 6:
+#   print(i)
+#   if i == 3:
+#     break
+#   i += 1
+
+"""Continue statement"""
+# i = 0
+# while i < 6:
+#   i += 1
+#   if i == 3:
+#     continue
+#   print(i)
+
+
