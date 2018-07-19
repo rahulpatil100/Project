@@ -196,3 +196,25 @@ Tuple is similar to list
 #   print(i)
 
 
+"""For Loop"""
+"""A for loop is used for iterating over a sequence (that is either a list, a tuple or a string)"""
+"""for loop we can execute a set of statements, once for each item in a list, tuple, set etc."""
+"""The for loop does not require an indexing variable to set beforehand, as the for command itself allows for this."""
+# fruits = ['apple','orange','mango']
+# for x in fruits:
+#     print(fruits)
+
+"""Break statement for loop"""
+# fruits = ["apple", "banana", "cherry"]
+# for x in fruits:
+#   if x == "banana":
+#     break
+#   print(x)
+
+
+"""For loop Continue statement"""
+# fruits = ["apple", "banana", "cherry"]
+# for x in fruits:
+#   if x == "banana":
+#     continue
+#   print(x)
