@@ -354,3 +354,89 @@ You can pass data known parameter into function. function its return dataa  as r
 # sort()	Sorts the list
 
 
+"""Python Class/Object"""
+# Python is an object oriented programming language.
+# Almost everything in Python is an object, with its properties and methods.
+# A Class is like an object constructor, or a "blueprint" for creating objects.
+
+"""Create object"""
+# class MyClass:
+#   x = 5
+#
+# p1 = MyClass()
+# print(p1.x)
+#
+
+"""__init__ ()Function"""
+"""All classes have a function called __init__(), which is always executed when the class is being initiated."""
+# The __init__() function is called automatically every time the class is being used to create a new object.
+
+# class Person:
+#   def __init__(self, name, age):
+#     self.name = name
+#     self.age = age
+#
+# p1 = Person("John", 36)
+#
+# print(p1.name)
+# print(p1.age)
+
+
+"""Object Method. Method in function"""
+# class Person:
+#   def __init__(self, name, age):
+#     self.name = name
+#     self.age = age
+#
+#   def myfunc(self):
+#     print("Hello my name is " + self.name + "and" + "my age is" + self.age)
+#
+# p1 = Person("Rahul", "22")
+# p1.myfunc()
+
+"""Self Parameter"""
+# class Person:
+#   def __init__(self, name, age):
+#     self.name = name
+#     self.age = age
+#
+#   def myfunc(abc):
+#     print("Hello my name is " + abc.name)
+#
+# p1 = Person("Rahul", 22)
+# p1.myfunc()
+
+"""Modify Object properties"""
+
+# class Person:
+#   def __init__(self, name, age):
+#     self.name = name
+#     self.age = age
+#
+#   def myfunc(self):
+#     print("Hello my name is " + self.name)
+#
+# p1 = Person("Rahul", 21)
+#
+# p1.age = 22
+#
+# print(p1.age)
+
+
+"""You can delete object by using del keyword"""
+#
+# class Person:
+#   def __init__(self, name, age):
+#     self.name = name
+#     self.age = age
+#
+#   def myfunc(self):
+#     print("Hello my name is " + self.name)
+#
+# p1 = Person("John", 36)
+#
+# del p1.age
+#
+# print(p1.age)
+
+
