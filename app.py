@@ -439,4 +439,46 @@ You can pass data known parameter into function. function its return dataa  as r
 #
 # print(p1.age)
 
+"""Module in Python"""
+"""Module same as code of library. A file containing a set of functions you want to include in your application."""
 
+# import mymodule
+#
+# mymodule.greeting('Rahul')
+
+"""Variable in module"""
+# import  mymodule
+#
+# a = mymodule.person1["name"]
+# print(a)
+
+"""Naming and Re-naming in module"""
+# import mymodule as mx
+#
+# a = mx.person1=['age']
+# print(a)
+
+
+"""Built in modules"""
+#import platform is module
+
+# import platform
+#
+# x = platform.system()
+# print(x)
+
+
+"""Using dir() function """
+"""The dir() function can be used on all modules, also the ones you create yourself"""
+# import  platform
+#
+# x = dir(platform)
+# print(x)
+
+
+"""Import from module"""
+
+
+# from mymodule import person1
+#
+# print (person1["country"])
